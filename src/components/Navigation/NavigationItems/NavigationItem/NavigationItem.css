@@ -15,11 +15,11 @@
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
-.NavigationItem a:active {
+.NavigationItem a.active {
     color: #40a4cb;
 }
 
-@media (max-width: 500px){
+@media (min-width: 500px){
     .NavigationItem {
         margin: 0;
         display: flex;
@@ -37,7 +37,7 @@
     
     .NavigationItem a:hover,
     .NavigationItem a:active,
-    .NavigationItem a:active {
+    .NavigationItem a.active {
         background-color: #8f5c2c;
         border-bottom: 4px solid #40a4cb;
         color: white;
